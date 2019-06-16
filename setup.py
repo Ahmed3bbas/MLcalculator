@@ -9,7 +9,7 @@ os.environ['TK_LIBRARY'] = r"C:\Users\lenovo\AppData\Local\Programs\Python\Pytho
 # Dependencies are automatically detected, but it might need fine tuning.
 build_exe_options = {"packages": ["pygame","numpy","cv2","sklearn","os","math","scipy","multiprocessing","multiprocessing.pool"],
                      "include_files":["calculator_svm.pkl",
-                                        "prdicted_image.jpg",
+                                        "predicted_image.jpg",
                                       "trainClassfier.py",
                                       "data.py",
                                       "operator_features.npz",
@@ -24,7 +24,7 @@ if sys.platform == "win32":
     base = "Win32GUI"
 
 setup(  name = "ML Calculator",
-        version = "0.1",
+        version = "0.2",
         description = "My GUI Calculator With ML!",
         options = {"build_exe": build_exe_options},
         executables = [Executable("Calculator.pyw", base=base)])
