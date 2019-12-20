@@ -6,7 +6,7 @@ machine learning calculator is simple calculator which it can evaluate hand writ
 
 runing the program is simple
 ```
-python3 Calculator.py 
+python Calculator.py 
 ```
 
 
@@ -29,6 +29,7 @@ to install python modules
 
 ```
 pip install -r requirements.txt   
+```
 
 ## Built With
 
