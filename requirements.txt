@@ -1,0 +1,8 @@
+Pygame
+keras
+numpy
+sklearn
+opencv-python
+scikit-image
+scipy
+collections-extended
